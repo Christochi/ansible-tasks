@@ -117,7 +117,7 @@
       createhome: null
       append: yes
 
-  - name: reloaded vault service
+  - name: restart vault service
     service:
       name: vault
       state: restarted
